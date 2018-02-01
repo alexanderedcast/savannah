@@ -1,0 +1,54 @@
+{
+  "link":{
+    "link_for_card_1":"http://bit.ly/2rMC22t",
+    "link_for_card_2":"https://www.youtube.com/watch?v=sZ6RL0ctWjU",
+    "description": "Description"
+  },
+
+  "text card": "This card created for the testing purpose! @Nik",
+  "text_after_editing" : "This card has been edited",
+  "text_for_comment": "This card has been commented",
+  "dynamic_card_topic" : "Python",
+  "tag":"#ThisIsSmartCard",
+
+
+  "pathway":{
+    "title":"This Pathway has been created for test!",
+    "new title": "This Pathway has been edited for test!",
+    "description":"Description for the Pathway",
+    "new description": "Description has been updated",
+    "channel name": "PUBLIC-PATHWAY",
+    "tag": "#ThisIsPathway"
+  },
+
+  "journey":{
+    "title":"This Journey has been created for test!",
+    "new title": "This Pathway has been edited for test!",
+    "description":"Description for the Journey",
+    "new description": "Description has been updated",
+    "section title" : "Section title",
+    "channel name": "PUBLIC-JOURNEY",
+    "tag": "#ThisIsJourney"
+  },
+
+  "quiz":{
+    "question": "Who is the father of the atomic bomb?",
+    "option 1": "Robert Oppenheimer",
+    "option 2": "Albert Einstein"
+  },
+
+  "poll":{
+    "title": "Books, Games, Music",
+    "link": "https://goo.gl/UJUctF",
+    "choice 1" : "Movie Theater",
+    "choice 2" : "Arcade",
+    "choice 3" : "PlayStation"
+  },
+
+  "group":{
+    "name":"GROUP - TEST-GROUP",
+    "description":"This group created for testing purpose! @Nik"
+  }
+
+}
+

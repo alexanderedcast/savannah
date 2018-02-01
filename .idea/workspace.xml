@@ -1,0 +1,955 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="956de94b-e4fc-42c9-932a-b7c5bd0c4d9d" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/ui_automation/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ui_automation/TODO: new test" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ui_automation/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ui_automation/env_config.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ui_automation/environment/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ui_automation/environment/steps_config.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ui_automation/features/1_authentication/authentication.feature" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ui_automation/features/2_cards/1_create.feature" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ui_automation/features/2_cards/2_read.feature" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ui_automation/features/2_cards/3_update.feature" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ui_automation/features/2_cards/4_main_features.feature" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ui_automation/features/2_cards/5_main_features.feature" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ui_automation/features/3_pathway/1.0_create.feature" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ui_automation/features/3_pathway/1.1_create.feature" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ui_automation/features/3_pathway/2_read.feature" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ui_automation/features/3_pathway/3_update.feature" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ui_automation/features/3_pathway/4_main_features.feature" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ui_automation/features/4_journey/1.0_create.feature" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ui_automation/features/4_journey/1.1_create.feature" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ui_automation/features/4_journey/2_read.feature" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ui_automation/features/4_journey/3_update.feature" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ui_automation/features/4_journey/4_main_features.feature" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ui_automation/features/5_me/1_skills.feature" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ui_automation/features/5_me/2_follow.feature" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ui_automation/features/5_me/3_content.feature" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ui_automation/features/5_me/4_groups.feature" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ui_automation/features/5_me/5_team.feature" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ui_automation/features/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ui_automation/features/steps/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ui_automation/features/steps/authentication.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ui_automation/features/steps/card.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ui_automation/features/steps/common_cards.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ui_automation/features/steps/follow.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ui_automation/features/steps/groups.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ui_automation/features/steps/me_content_team.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ui_automation/features/steps/navigation.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ui_automation/features/steps/pathway.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ui_automation/features/steps/pathway_journey.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ui_automation/features/steps/skills.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ui_automation/helper/API_helper/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ui_automation/helper/API_helper/api_data.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ui_automation/helper/API_helper/create_smartcard.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ui_automation/helper/API_helper/follow.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ui_automation/helper/API_helper/get_email.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ui_automation/helper/API_helper/group.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ui_automation/helper/API_helper/skills.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ui_automation/helper/API_helper/users.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ui_automation/helper/JS_tricks.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ui_automation/helper/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ui_automation/helper/driver/chromedriver" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ui_automation/helper/methods/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ui_automation/helper/methods/actions.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ui_automation/helper/methods/cards/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ui_automation/helper/methods/cards/cards.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ui_automation/helper/methods/cards/create_card_with.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ui_automation/helper/methods/cards/locators.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ui_automation/helper/methods/cards/read.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ui_automation/helper/methods/cards/update.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ui_automation/helper/methods/cards/verification.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ui_automation/helper/methods/common/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ui_automation/helper/methods/common/all_cards.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ui_automation/helper/methods/common/common_methods.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ui_automation/helper/methods/common/locator.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ui_automation/helper/methods/common/verification.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ui_automation/helper/methods/discover/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ui_automation/helper/methods/discover/locators.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ui_automation/helper/methods/home/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ui_automation/helper/methods/home/home_page.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ui_automation/helper/methods/home/locators.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ui_automation/helper/methods/journey/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ui_automation/helper/methods/journey/create_with.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ui_automation/helper/methods/journey/journey.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ui_automation/helper/methods/journey/locators.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ui_automation/helper/methods/journey/simple_card.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ui_automation/helper/methods/journey/update.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ui_automation/helper/methods/journey/verify_create_with.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ui_automation/helper/methods/login/SSO_login.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ui_automation/helper/methods/login/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ui_automation/helper/methods/login/locators.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ui_automation/helper/methods/login/login_page.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ui_automation/helper/methods/login/verification.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ui_automation/helper/methods/me/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ui_automation/helper/methods/me/content.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ui_automation/helper/methods/me/follow.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ui_automation/helper/methods/me/groups.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ui_automation/helper/methods/me/interests_experise.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ui_automation/helper/methods/me/team.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ui_automation/helper/methods/navigation.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ui_automation/helper/methods/pathway/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ui_automation/helper/methods/pathway/create_with.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ui_automation/helper/methods/pathway/pathway.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ui_automation/helper/methods/pathway/simple_card.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ui_automation/helper/methods/pathway/update.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ui_automation/helper/methods/pathway/update_.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ui_automation/helper/methods/pathway/verfiy_create_with.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ui_automation/helper/methods/pathway_journey/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ui_automation/helper/methods/pathway_journey/create.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ui_automation/helper/methods/pathway_journey/locators.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ui_automation/helper/methods/pathway_journey/main_action.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ui_automation/helper/methods/pathway_journey/read.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ui_automation/helper/methods/pathway_journey/support_create_with.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ui_automation/helper/methods/search.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ui_automation/helper/methods/wait.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ui_automation/test-requirements.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ui_automation/test_data/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ui_automation/test_data/pic/my_device.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ui_automation/test_data/pic/update.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ui_automation/test_data/pic/zvezda.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ui_automation/test_data/read_json.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ui_automation/test_data/test_data.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ui_automation/test_data/upload_user.csv" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ui_automation/test_data/users.json" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/savannah$authentication_feature_Verify_that_user_can_sign_in_if_account_exist_in_system__2_.coverage" NAME="authentication.feature:Verify that user can sign in if account exist in system (2) Coverage Results" MODIFIED="1517442242360" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/savannah$authentication_feature__1_.coverage" NAME="authentication.feature (1) Coverage Results" MODIFIED="1517443474046" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/savannah$authentication_feature.coverage" NAME="authentication.feature Coverage Results" MODIFIED="1517441954761" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/savannah$read_json.coverage" NAME="read_json Coverage Results" MODIFIED="1517442232098" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ui_automation/test_data" />
+    <SUITE FILE_PATH="coverage/savannah$authentication_feature_Verify_that_user_can_sign_in_if_account_exist_in_system.coverage" NAME="authentication.feature:Verify that user can sign in if account exist in system Coverage Results" MODIFIED="1517442141971" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/savannah$authentication_feature_Verify_that_user_can_sign_in_if_account_exist_in_system__1_.coverage" NAME="authentication.feature:Verify that user can sign in if account exist in system (1) Coverage Results" MODIFIED="1517442167986" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="authentication.feature" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ui_automation/features/1_authentication/authentication.feature">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/ui_automation/helper/methods/actions.py" />
+        <option value="$PROJECT_DIR$/ui_automation/environment/steps_config.py" />
+        <option value="$PROJECT_DIR$/ui_automation/test_data/read_json.py" />
+        <option value="$PROJECT_DIR$/ui_automation/helper/methods/home/home_page.py" />
+        <option value="$PROJECT_DIR$/ui_automation/helper/methods/wait.py" />
+        <option value="$PROJECT_DIR$/ui_automation/helper/methods/login/login_page.py" />
+        <option value="$PROJECT_DIR$/ui_automation/helper/API_helper/get_email.py" />
+        <option value="$PROJECT_DIR$/ui_automation/features/steps/card.py" />
+        <option value="$PROJECT_DIR$/ui_automation/helper/JS_tricks.py" />
+        <option value="$PROJECT_DIR$/ui_automation/helper/methods/cards/create_card_with.py" />
+        <option value="$PROJECT_DIR$/ui_automation/helper/methods/common/all_cards.py" />
+        <option value="$PROJECT_DIR$/ui_automation/helper/methods/common/common_methods.py" />
+        <option value="$PROJECT_DIR$/ui_automation/helper/methods/cards/read.py" />
+        <option value="$PROJECT_DIR$/ui_automation/helper/methods/cards/update.py" />
+        <option value="$PROJECT_DIR$/ui_automation/helper/methods/cards/verification.py" />
+        <option value="$PROJECT_DIR$/ui_automation/helper/methods/common/verification.py" />
+        <option value="$PROJECT_DIR$/ui_automation/features/steps/common_cards.py" />
+        <option value="$PROJECT_DIR$/ui_automation/helper/methods/cards/cards.py" />
+        <option value="$PROJECT_DIR$/ui_automation/helper/methods/journey/simple_card.py" />
+        <option value="$PROJECT_DIR$/ui_automation/helper/methods/journey/journey.py" />
+        <option value="$PROJECT_DIR$/ui_automation/helper/methods/pathway/pathway.py" />
+        <option value="$PROJECT_DIR$/ui_automation/helper/methods/pathway_journey/create.py" />
+        <option value="$PROJECT_DIR$/ui_automation/helper/methods/navigation.py" />
+        <option value="$PROJECT_DIR$/ui_automation/helper/methods/pathway/simple_card.py" />
+        <option value="$PROJECT_DIR$/ui_automation/features/steps/follow.py" />
+        <option value="$PROJECT_DIR$/ui_automation/helper/methods/me/follow.py" />
+        <option value="$PROJECT_DIR$/ui_automation/helper/API_helper/follow.py" />
+        <option value="$PROJECT_DIR$/ui_automation/helper/API_helper/users.py" />
+        <option value="$PROJECT_DIR$/ui_automation/helper/methods/search.py" />
+        <option value="$PROJECT_DIR$/ui_automation/features/steps/groups.py" />
+        <option value="$PROJECT_DIR$/ui_automation/helper/methods/me/groups.py" />
+        <option value="$PROJECT_DIR$/ui_automation/helper/API_helper/group.py" />
+        <option value="$PROJECT_DIR$/ui_automation/features/steps/me_content_team.py" />
+        <option value="$PROJECT_DIR$/ui_automation/helper/methods/me/content.py" />
+        <option value="$PROJECT_DIR$/ui_automation/helper/methods/me/team.py" />
+        <option value="$PROJECT_DIR$/ui_automation/features/steps/navigation.py" />
+        <option value="$PROJECT_DIR$/ui_automation/features/steps/pathway.py" />
+        <option value="$PROJECT_DIR$/ui_automation/helper/methods/pathway/update.py" />
+        <option value="$PROJECT_DIR$/ui_automation/helper/methods/pathway/update_.py" />
+        <option value="$PROJECT_DIR$/ui_automation/helper/methods/pathway/create_with.py" />
+        <option value="$PROJECT_DIR$/ui_automation/helper/methods/pathway_journey/support_create_with.py" />
+        <option value="$PROJECT_DIR$/ui_automation/helper/methods/pathway_journey/read.py" />
+        <option value="$PROJECT_DIR$/ui_automation/features/steps/pathway_journey.py" />
+        <option value="$PROJECT_DIR$/ui_automation/helper/methods/journey/create_with.py" />
+        <option value="$PROJECT_DIR$/ui_automation/helper/methods/journey/update.py" />
+        <option value="$PROJECT_DIR$/ui_automation/helper/methods/journey/verify_create_with.py" />
+        <option value="$PROJECT_DIR$/ui_automation/helper/methods/pathway/verfiy_create_with.py" />
+        <option value="$PROJECT_DIR$/ui_automation/helper/methods/pathway_journey/main_action.py" />
+        <option value="$PROJECT_DIR$/ui_automation/features/steps/skills.py" />
+        <option value="$PROJECT_DIR$/ui_automation/helper/API_helper/skills.py" />
+        <option value="$PROJECT_DIR$/ui_automation/helper/methods/me/interests_experise.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="827" />
+    <option name="height" value="1200" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="savannah" type="b2602c69:ProjectViewProjectNode" />
+              <item name="savannah" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ui_automation" />
+      <recent name="$PROJECT_DIR$/ui-automation" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Lettuce.authentication.feature (1)">
+    <configuration name="authentication.feature (1)" type="PyLettuceRunConfigurationType" factoryName="Lettuce" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="savannah" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <WHAT_TO_RUN WHAT_TO_RUN="$PROJECT_DIR$/ui_automation/features/1_authentication/authentication.feature" />
+      <option name="ADDITIONAL_ARGS" value="" />
+    </configuration>
+    <configuration name="authentication.feature:Verify that user can sign in if account exist in system (1)" type="PyLettuceRunConfigurationType" factoryName="Lettuce" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="savannah" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <WHAT_TO_RUN WHAT_TO_RUN="$PROJECT_DIR$/ui_automation/features/1_authentication/authentication.feature" />
+      <SCENRAIO_NAMES SCENRAIO_NAMES="1" />
+      <option name="ADDITIONAL_ARGS" value="" />
+    </configuration>
+    <configuration name="authentication.feature:Verify that user can sign in if account exist in system (2)" type="PyLettuceRunConfigurationType" factoryName="Lettuce" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="savannah" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <WHAT_TO_RUN WHAT_TO_RUN="$PROJECT_DIR$/ui_automation/features/1_authentication/authentication.feature" />
+      <SCENRAIO_NAMES SCENRAIO_NAMES="1" />
+      <option name="ADDITIONAL_ARGS" value="" />
+    </configuration>
+    <configuration name="authentication.feature:Verify that user can sign in if account exist in system" type="PyLettuceRunConfigurationType" factoryName="Lettuce" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="savannah" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <WHAT_TO_RUN WHAT_TO_RUN="$PROJECT_DIR$/ui_automation/features/1_authentication/authentication.feature" />
+      <SCENRAIO_NAMES SCENRAIO_NAMES="1" />
+      <option name="ADDITIONAL_ARGS" value="" />
+    </configuration>
+    <configuration name="read_json" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ui_automation/test_data" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="savannah" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ui_automation/test_data/read_json.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Lettuce.authentication.feature:Verify that user can sign in if account exist in system" />
+      <item index="1" class="java.lang.String" itemvalue="Lettuce.authentication.feature:Verify that user can sign in if account exist in system (1)" />
+      <item index="2" class="java.lang.String" itemvalue="Lettuce.authentication.feature (1)" />
+      <item index="3" class="java.lang.String" itemvalue="Python.read_json" />
+      <item index="4" class="java.lang.String" itemvalue="Lettuce.authentication.feature:Verify that user can sign in if account exist in system (2)" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Lettuce.authentication.feature (1)" />
+        <item index="1" class="java.lang.String" itemvalue="Lettuce.authentication.feature:Verify that user can sign in if account exist in system (2)" />
+        <item index="2" class="java.lang.String" itemvalue="Python.read_json" />
+        <item index="3" class="java.lang.String" itemvalue="Lettuce.authentication.feature:Verify that user can sign in if account exist in system (1)" />
+        <item index="4" class="java.lang.String" itemvalue="Lettuce.authentication.feature:Verify that user can sign in if account exist in system" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="956de94b-e4fc-42c9-932a-b7c5bd0c4d9d" name="Default" comment="" />
+      <created>1517441863982</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1517441863982</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="authentication_feature_(1) - 2018.01.31 at 16h 00m 50s.xml">
+      <configuration name="authentication.feature (1)" configurationId="PyLettuceRunConfigurationType" />
+    </history-entry>
+    <history-entry file="authentication_feature_(1) - 2018.01.31 at 16h 01m 20s.xml">
+      <configuration name="authentication.feature (1)" configurationId="PyLettuceRunConfigurationType" />
+    </history-entry>
+    <history-entry file="authentication_feature_(1) - 2018.01.31 at 16h 02m 07s.xml">
+      <configuration name="authentication.feature (1)" configurationId="PyLettuceRunConfigurationType" />
+    </history-entry>
+    <history-entry file="authentication_feature_(1) - 2018.01.31 at 16h 02m 22s.xml">
+      <configuration name="authentication.feature (1)" configurationId="PyLettuceRunConfigurationType" />
+    </history-entry>
+    <history-entry file="authentication_feature_(1) - 2018.01.31 at 16h 02m 35s.xml">
+      <configuration name="authentication.feature (1)" configurationId="PyLettuceRunConfigurationType" />
+    </history-entry>
+    <history-entry file="authentication_feature_(1) - 2018.01.31 at 16h 02m 45s.xml">
+      <configuration name="authentication.feature (1)" configurationId="PyLettuceRunConfigurationType" />
+    </history-entry>
+    <history-entry file="authentication_feature_(1) - 2018.01.31 at 16h 03m 09s.xml">
+      <configuration name="authentication.feature (1)" configurationId="PyLettuceRunConfigurationType" />
+    </history-entry>
+    <history-entry file="authentication_feature_(1) - 2018.01.31 at 16h 03m 53s.xml">
+      <configuration name="authentication.feature (1)" configurationId="PyLettuceRunConfigurationType" />
+    </history-entry>
+    <history-entry file="authentication_feature_(1) - 2018.01.31 at 16h 04m 12s.xml">
+      <configuration name="authentication.feature (1)" configurationId="PyLettuceRunConfigurationType" />
+    </history-entry>
+    <history-entry file="authentication_feature_(1) - 2018.01.31 at 16h 04m 19s.xml">
+      <configuration name="authentication.feature (1)" configurationId="PyLettuceRunConfigurationType" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1920" height="1200" extended-state="0" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919255" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24973376" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Reviews" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="News Feed" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39929014" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/ui_automation/helper/methods/actions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="14" column="32" lean-forward="false" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#11#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui_automation/environment/steps_config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="15" column="31" lean-forward="false" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="31" />
+          <folding>
+            <element signature="e#15#24#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui_automation/test_data/read_json.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui_automation/features/steps/authentication.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="15" column="17" lean-forward="false" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#31#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui_automation/helper/methods/login/login_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="39" column="18" lean-forward="false" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="18" />
+          <folding>
+            <element signature="e#15#76#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui_automation/helper/API_helper/get_email.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#11#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui_automation/features/steps/card.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="625">
+          <caret line="153" column="29" lean-forward="false" selection-start-line="153" selection-start-column="13" selection-end-line="153" selection-end-column="29" />
+          <folding>
+            <element signature="e#15#26#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui_automation/helper/JS_tricks.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="18" lean-forward="false" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#24#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui_automation/helper/methods/cards/create_card_with.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="12" column="29" lean-forward="false" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="29" />
+          <folding>
+            <element signature="e#15#26#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui_automation/helper/methods/common/all_cards.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="18" column="38" lean-forward="false" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#9#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui_automation/helper/methods/common/common_methods.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="24" column="34" lean-forward="false" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#11#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui_automation/helper/methods/cards/read.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="22" column="40" lean-forward="false" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="40" />
+          <folding>
+            <element signature="e#15#28#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui_automation/helper/methods/cards/update.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="18" column="43" lean-forward="false" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="43" />
+          <folding>
+            <element signature="e#15#26#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui_automation/helper/methods/cards/verification.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="19" column="24" lean-forward="false" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="24" />
+          <folding>
+            <element signature="e#15#26#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui_automation/helper/methods/common/verification.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-431">
+          <caret line="23" column="36" lean-forward="false" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="36" />
+          <folding>
+            <element signature="e#15#26#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui_automation/features/steps/common_cards.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="193" column="25" lean-forward="false" selection-start-line="193" selection-start-column="15" selection-end-line="193" selection-end-column="25" />
+          <folding>
+            <element signature="e#15#26#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui_automation/helper/methods/cards/cards.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="19" column="24" lean-forward="false" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="24" />
+          <folding>
+            <element signature="e#15#26#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui_automation/helper/methods/journey/simple_card.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="22" column="30" lean-forward="false" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#11#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui_automation/helper/methods/journey/journey.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="38" lean-forward="false" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#11#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui_automation/helper/methods/pathway/pathway.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-56">
+          <caret line="1" column="11" lean-forward="false" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui_automation/helper/methods/pathway_journey/create.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="29" lean-forward="false" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#13#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui_automation/helper/methods/navigation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="33" lean-forward="false" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="33" />
+          <folding>
+            <element signature="e#15#26#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui_automation/helper/methods/pathway/simple_card.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="30" lean-forward="false" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="30" />
+          <folding>
+            <element signature="e#15#26#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui_automation/features/steps/follow.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="31" lean-forward="false" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui_automation/helper/methods/me/follow.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2280">
+          <caret line="152" column="59" lean-forward="false" selection-start-line="152" selection-start-column="50" selection-end-line="152" selection-end-column="59" />
+          <folding>
+            <element signature="e#0#13#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui_automation/helper/API_helper/follow.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="21" column="23" lean-forward="false" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#11#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui_automation/helper/API_helper/users.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-536">
+          <caret line="10" column="49" lean-forward="false" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#11#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui_automation/helper/methods/search.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#21#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui_automation/features/steps/groups.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="8" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#31#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui_automation/helper/methods/me/groups.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="30" column="36" lean-forward="false" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#62#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui_automation/helper/API_helper/group.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="49" lean-forward="false" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#11#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui_automation/features/steps/me_content_team.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="36" lean-forward="false" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#24#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui_automation/helper/methods/me/content.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-266">
+          <caret line="25" column="36" lean-forward="false" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#11#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui_automation/helper/methods/me/team.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="514">
+          <caret line="59" column="41" lean-forward="false" selection-start-line="59" selection-start-column="25" selection-end-line="59" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#13#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui_automation/features/steps/navigation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="16" lean-forward="true" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#24#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui_automation/features/steps/pathway.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="27" lean-forward="false" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="27" />
+          <folding>
+            <element signature="e#15#39#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui_automation/helper/methods/pathway/update.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding>
+            <element signature="e#15#26#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui_automation/helper/methods/pathway/update_.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="23" column="36" lean-forward="false" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#11#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui_automation/helper/methods/pathway/create_with.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="36" lean-forward="false" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#11#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui_automation/helper/methods/pathway_journey/support_create_with.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="50" lean-forward="false" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#11#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui_automation/helper/methods/pathway_journey/read.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="28" lean-forward="false" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui_automation/features/steps/pathway_journey.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="18" lean-forward="false" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui_automation/helper/methods/journey/create_with.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="43" lean-forward="false" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui_automation/helper/methods/journey/update.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="8" lean-forward="false" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui_automation/helper/methods/journey/verify_create_with.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="18" lean-forward="false" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui_automation/helper/methods/pathway/verfiy_create_with.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="21" lean-forward="false" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui_automation/helper/methods/pathway_journey/main_action.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="29" lean-forward="false" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui_automation/features/steps/skills.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="25" lean-forward="false" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui_automation/helper/API_helper/skills.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="25" lean-forward="false" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui_automation/helper/methods/me/interests_experise.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1110">
+          <caret line="2" column="25" lean-forward="false" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui_automation/features/1_authentication/authentication.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

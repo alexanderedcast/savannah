@@ -1,0 +1,28 @@
+# ============================================================================
+# PYTHON PACKAGE REQUIREMENTS:
+# ============================================================================
+# REQUIRES: Python >= 2.7.11
+# DESCRIPTION:
+#    pip install -r <THIS_FILE>
+#
+# SPECIFIC DEPENDENCIES:
+#   lettuce  -- BDD test framework, cucumber-clone for Python.
+#   selenium -- To drive the browser tests
+#   gmail -- if you get the error during installation of the
+#             test-requirements.txt you can use the link
+#
+#             git clone git://github.com/charlierguo/gmail.git
+# ============================================================================
+castro==1.0.6
+expects==0.8.0
+Faker==0.8.7
+fuzzywuzzy==0.15.1
+gmail==0.0.5
+lettuce==0.2.23
+python-Levenshtein==0.12.0
+PyVirtualDisplay==0.2.1
+requests==2.18.4
+selenium==3.6.0
+virtualenv==15.1.0
+
+

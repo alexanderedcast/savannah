@@ -1,0 +1,21 @@
+# ===================================================================================================
+# AUTOMATION TEST ENVIRONMENT CONFIGURATIONS
+# ===================================================================================================
+# FILE: config.yml
+#
+# SEE ALSO:
+#  * http://selenium-python.readthedocs.org/index.html
+#  * https://code.google.com/p/selenium/wiki/GettingStarted
+# ===================================================================================================
+
+env:
+
+    # Base application url for local run
+    url: "https://nik.edcasting.co"
+
+    # browser for local run
+    browser: chrome
+
+    # user to run
+    user: nik
+

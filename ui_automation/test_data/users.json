@@ -1,0 +1,45 @@
+
+{
+  "existing_users":{
+    "nik": {
+      "first name": "Nik",
+      "last name": "Omel",
+      "email": "nik@edcast.com",
+      "password": "Nikita19950409$"
+    }
+  },
+  "restore":{
+      "first name": "Kevin",
+      "last name": "Mitnick",
+      "email": "mitnick090@gmail.com",
+      "password": "QAZwsx@12345",
+      "new password": "QAZwsx123456$"
+  },
+  "gmail":{
+    "email":"mitnick090@gmail.com",
+    "password":"qazWSX123456#"
+  },
+  "sso":{
+    "facebook": {
+      "first name":"",
+      "last name": "",
+      "email": "nikmiler16@gmail.com",
+      "password": "qazwsx123456"
+    },
+    "google":{
+      "first name": "Nik",
+      "last name": "Omel",
+      "email": "nik@edcast.com",
+      "password": "asdewq1234$"
+    },
+    "linkedin":{
+       "first name": "Kevin",
+      "last name": "Mitnick",
+      "email": "mitnick090@gmail.com",
+      "password": "qazwsx123456"
+
+    }
+  }
+}
+
+
